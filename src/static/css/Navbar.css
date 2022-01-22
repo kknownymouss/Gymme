@@ -1,0 +1,145 @@
+.navbar-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-mid {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-button-group {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    margin: 0 16px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.nav-link-focus {
+    margin: 0 16px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    background-color: var(--neutral-100);
+    color: var(--neutral-500);
+    padding: 2px 10px;
+}
+
+.signup-button {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    background-color: var(--primary-200);
+    border: none;
+    padding: 12px 30px;
+    margin-left: 5px;
+    transition: all 0.2s;
+}
+
+.signup-button:hover {
+    filter: brightness(0.8);
+}
+
+.login-button {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    padding: 12px 8px;
+    transition: all 0.2s;
+}
+
+.login-button:hover {
+    filter: brightness(0.9);
+}
+
+.navbar-menu {
+    display: none;
+    align-items: center;
+    position: relative;
+}
+
+@media screen and (max-width: 1440px) {
+    .navbar-menu {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 860px) {
+    .navbar-left {
+        margin-left: 30px;
+    }
+
+    .navbar-mid {
+        display: none;
+    }
+
+    .navbar-menu {
+        display: flex;
+        margin-left: 20px;
+    }
+
+    .navbar-right {
+        margin-right: 30px;
+    }
+
+    .navbar-box {
+        justify-content: space-between;
+    }
+    
+}
+
+@media screen and (max-width: 428px) {
+    .navbar-left {
+        margin-left: 20px;
+    }
+
+    .navbar-mid {
+        display: none;
+    }
+
+    .navbar-button-group {
+        display: none;
+    }
+
+    .navbar-right {
+        margin-right: 20px;
+    }
+
+
+    .navbar-menu {
+        display: flex;
+    }
+
+    .navbar-box {
+        justify-content: space-between;
+    }
+    
+}

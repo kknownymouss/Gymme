@@ -1,0 +1,159 @@
+:root {
+    --primary-300: #25C870;
+    --primary-200: #4AE290;
+    --primary-100: #A5FFCE; 
+    --neutral-500: #131316;
+    --neutral-400: #595962;
+    --neutral-300: #9797A1;
+    --neutral-200: #DEDEE3;
+    --neutral-100: #FFFFFF; 
+}
+
+
+.H1--desktop {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 62px;
+}
+
+.H2--desktop {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.H3--desktop {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 46px;
+}
+
+.H4--desktop {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 46px;
+}
+
+.H5--desktop {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.H6--desktop {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.Body-large {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.Body-medium {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.Body-small {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+    font-style: normal;
+    color: var(--neutral-100);
+}
+
+body {
+    background-color: #ededf4;
+    overflow-x: hidden;
+}
+
+.navbar-home-div {
+    background-color: black;
+    background-image: url("https://res.cloudinary.com/dhcl5t8to/image/upload/v1642614264/gym_landing/hero-min_o1irtc.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: auto 100vh;
+    background-position-x: calc(77%);
+    height: 100vh;
+}
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+
+@media screen and (max-width: 1440px) {
+
+    .navbar-home-div {
+        background-position-x: calc(77%);
+    }
+
+}
+
+@media screen and (max-width: 860px) {
+
+    .navbar-home-div {
+        background-position-x: right;
+    }
+
+}
+
+@media screen and (max-width: 428px) {
+    
+    .navbar-home-div {
+        background-origin: right;
+    }
+    
+}
+  

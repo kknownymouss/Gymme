@@ -1,0 +1,129 @@
+.comm-wrap {
+    margin-bottom: 180px;
+    padding-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 30px;
+    flex-wrap: wrap;
+
+}
+
+.comm-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.comm-title-text {
+    color: var(--neutral-500);
+    position: relative;
+    right: 50px;
+}
+
+.comm-div-1 {
+    width: 360px;
+    height: 480px;
+    background-size: cover;
+    background-position-x: center;
+    margin: 0px 30px;
+}
+
+.comm-div-2 {
+    width: 360px;
+    height: 480px;
+    background-size: cover;
+    background-position-x: center;
+    margin: 0px 30px;
+}
+
+.comm-div-text-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    backdrop-filter: brightness(50%);
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.comm-div-image-par {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comm-div-text-div-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comm-div-text {
+    text-align: center;
+    font-family: Open Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+.comm-div-text-2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+@media screen and (max-width: 860px) {
+    .comm-wrap {
+        margin-bottom: 300px;
+        padding-top: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .comm-div-2 {
+        margin: 0px 10px;
+    }
+
+    .comm-div-1 {
+        margin: 0px 10px;
+    }
+
+}
+
+@media screen and (max-width: 428px) {
+    .comm-div-2 {
+        width: 300px;
+        height: 400px;
+        margin: 0px 10px;
+    }
+
+    .comm-div-1 {
+        width: 300px;
+        height: 400px;
+        margin: 0px 10px;
+        margin-bottom: 20px;
+    }
+    
+    .comm-title-text {
+        font-size: 32px !important;
+        line-height: 40px !important;
+        min-width: 0px;
+    }
+
+    .comm-div-image-par {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

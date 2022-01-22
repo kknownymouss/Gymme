@@ -1,0 +1,23 @@
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 195px;
+    padding: 0px 30px 51px 30px;
+    background-color: var(--neutral-500);
+}
+
+.footer-rights {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--neutral-300);
+}
+
+@media screen and (max-width: 428px) {
+    .footer-wrap {
+        height: 125px;
+    }
+}

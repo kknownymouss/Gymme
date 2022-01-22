@@ -1,0 +1,59 @@
+.mission-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 140px 0px 180px 0px;
+
+}
+
+.mission-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 768px;
+    padding: 20px;
+}
+
+.mission-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.mission-title-text {
+    color: var(--neutral-500);
+    position: relative;
+    right: 80px;
+    min-width: 294px;
+}
+
+.mission-paragraph {
+    color: var(--neutral-500);
+    margin-bottom: 30px;
+    font-weight: 500 !important;
+}
+
+.mission-join-now {
+    display: flex;
+    align-items: center;
+}
+
+.mission-join-now-text {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: var(--neutral-500);
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 428px) {
+    .mission-title-text {
+        font-size: 32px !important;
+        line-height: 40px !important;
+        min-width: 0px;
+    }
+    .mission-div { 
+        max-width: none;
+    }
+}
