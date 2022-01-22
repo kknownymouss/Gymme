@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9f2a9a25.css",
+    "main.js": "/static/js/main.81b62c84.js",
+    "static/media/body_pump.jpeg": "/static/media/body_pump.e8b24e96a90b49ae1976.jpeg",
+    "static/media/cta-im.jpeg": "/static/media/cta-im.3f672f5d52456bbaa4a4.jpeg",
+    "static/media/yoga.jpeg": "/static/media/yoga.b8c6cecf299de2462abe.jpeg",
+    "static/media/flexibility.jpeg": "/static/media/flexibility.46bad3cf26a8b3d4cf4a.jpeg",
+    "static/media/full_body.jpeg": "/static/media/full_body.963c561ef0ccbcab9e4c.jpeg",
+    "static/media/core.jpg": "/static/media/core.e33e2601928de9b0eccf.jpg",
+    "static/media/comm-1.jpeg": "/static/media/comm-1.178e29636e6772935a5d.jpeg",
+    "static/media/comm-2.jpeg": "/static/media/comm-2.f459d9a89a22902a44df.jpeg",
+    "static/media/boxing.jpeg": "/static/media/boxing.3bb8e32ccf5d2331edbe.jpeg",
+    "index.html": "/index.html",
+    "main.9f2a9a25.css.map": "/static/css/main.9f2a9a25.css.map",
+    "main.81b62c84.js.map": "/static/js/main.81b62c84.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f2a9a25.css",
+    "static/js/main.81b62c84.js"
+  ]
+}
